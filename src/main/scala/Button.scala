@@ -1,4 +1,3 @@
-import japgolly.scalajs.react._
 import scala.scalajs.js.annotation.JSImport
 import scalajs.js
 
@@ -8,5 +7,4 @@ object Button {
   @js.native
   object RawComponent extends js.Object
 
-  val component = JsComponent[Null, Children.Varargs, Null](RawComponent)
 }

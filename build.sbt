@@ -10,9 +10,9 @@ lazy val root = (project in file("."))
       "org.scala-js" %%% "scalajs-dom" % "0.9.6"
     ),
     npmDependencies in Compile ++= Seq(
-      "react" -> "16.4.1",
-      "react-dom" -> "16.4.1",
-      "@atlaskit/button" -> "9.0.4",
+      "react" -> "16.4.2",
+      "react-dom" -> "16.4.2",
+      "@atlaskit/button" -> "9.0.5",
       "styled-components" -> "3.2.6"
     )
   )
